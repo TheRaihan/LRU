@@ -22,13 +22,9 @@ def LRU(x,i):
         track[y][place] = i
         show()
 
-
-
 def show():
     for rows in cache:
         print("\t\t",rows)
-    # for rows in track:
-    #     print(rows)
 
 cache = []
 temp = []
